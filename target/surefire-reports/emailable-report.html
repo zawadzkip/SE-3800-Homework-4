@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">73</td><td class="numi">73</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">operation.SubOperationTest<td><a href="#m1"><b>testBoth</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">computation.ComputationTest<td><a href="#m2"><b>testConstructor</b>  </a></td><td class="numi">5</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="2">calculator.CalculatorTest<td><a href="#m3"><b>testExit</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m4"><b>testLargeIntegerSubstitution</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="2">logger.LoggerTest<td><a href="#m5"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr><tr class="passedeven"><td><a href="#m6"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.SqrOperationTest<td><a href="#m7"><b>testPositiveNumbers</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">calculator.CalculatorTest<td><a href="#m8"><b>testNonInteger</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">computation.ComputationTest<td><a href="#m9"><b>testGetResult</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="2">logger.LoggerTest<td><a href="#m10"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr><tr class="passedeven"><td><a href="#m11"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedodd"><td rowspan="1">calculator.CalculatorTest<td><a href="#m12"><b>testBadCommand</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.AddOperationTest<td><a href="#m13"><b>testEmptyNumberList</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">computation.ComputationTest<td><a href="#m14"><b>testComputationString</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.SqrOperationTest<td><a href="#m15"><b>testValueSize</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="3">logger.LoggerTest<td><a href="#m16"><b>testGetInstance</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m17"><b>testLog</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m18"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="1">calculator.CalculatorTest<td><a href="#m19"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr>
+<tr class="passedodd"><td rowspan="1">logger.LoggerTest<td><a href="#m20"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.AddOperationTest<td><a href="#m21"><b>testAddNegatives</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">computation.ComputationTest<td><a href="#m22"><b>testGetName</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.SqrOperationTest<td><a href="#m23"><b>testMoreThanOneElementList</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">computation.ComputationTest<td><a href="#m24"><b>testConstructor</b>  </a></td><td class="numi">5</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.AddOperationTest<td><a href="#m25"><b>testAddPositives</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">logger.LoggerTest<td><a href="#m26"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="2">operation.DivOperationTest<td><a href="#m27"><b>testDivideNegatives</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m28"><b>testDivideBoth</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">logger.LoggerTest<td><a href="#m29"><b>testPrintMostRecentLog</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">calculator.CalculatorTest<td><a href="#m30"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.MultOperationTest<td><a href="#m31"><b>testValueSize</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">logger.LoggerTest<td><a href="#m32"><b>testClearLogHistory</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.AddOperationTest<td><a href="#m33"><b>testNullList</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="2">operation.SubOperationTest<td><a href="#m34"><b>testPositiveNumbers</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m35"><b>testEmptyList</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">calculator.CalculatorTest<td><a href="#m36"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr>
+<tr class="passedeven"><td rowspan="1">logger.LoggerTest<td><a href="#m37"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedodd"><td rowspan="1">calculator.CalculatorTest<td><a href="#m38"><b>testNonIntegerSubstitution</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.MultOperationTest<td><a href="#m39"><b>testEmptyList</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">logger.LoggerTest<td><a href="#m40"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.SqrOperationTest<td><a href="#m41"><b>testNegativeNumbers</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">logger.LoggerTest<td><a href="#m42"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="1">calculator.MenuTest<td><a href="#m43"><b>testInput</b>  </a></td><td class="numi">1</td><td class="numi">13</td></tr>
+<tr class="passedodd"><td rowspan="2">logger.LoggerTest<td><a href="#m44"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr><tr class="passedodd"><td><a href="#m45"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr>
+<tr class="passedeven"><td rowspan="1">calculator.CalculatorTest<td><a href="#m46"><b>testSubstitutionOperations</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.MultOperationTest<td><a href="#m47"><b>testMultiplyBoth</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.SubOperationTest<td><a href="#m48"><b>testNegativeNumbers</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">computation.ComputationTest<td><a href="#m49"><b>testConstructor</b>  </a></td><td class="numi">5</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.MultOperationTest<td><a href="#m50"><b>testMultiplyPositive</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.DivOperationTest<td><a href="#m51"><b>testDividePositives</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">calculator.CalculatorTest<td><a href="#m52"><b>testInvalidIntegerSubtitution</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="2">logger.LoggerTest<td><a href="#m53"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr><tr class="passedodd"><td><a href="#m54"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.DivOperationTest<td><a href="#m55"><b>testValueSize</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">computation.ComputationTest<td><a href="#m56"><b>testGetNumberList</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.SubOperationTest<td><a href="#m57"><b>testValueSize</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.AddOperationTest<td><a href="#m58"><b>testAddBoth</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">logger.LoggerTest<td><a href="#m59"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr>
+<tr class="passedodd"><td rowspan="3">calculator.CalculatorTest<td><a href="#m60"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr><tr class="passedodd"><td><a href="#m61"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr><tr class="passedodd"><td><a href="#m62"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.AddOperationTest<td><a href="#m63"><b>testValueSize</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">computation.ComputationTest<td><a href="#m64"><b>testConstructor</b>  </a></td><td class="numi">5</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">logger.LoggerTest<td><a href="#m65"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.DivOperationTest<td><a href="#m66"><b>testEmptyList</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="1">computation.ComputationTest<td><a href="#m67"><b>testConstructor</b>  </a></td><td class="numi">5</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="1">logger.LoggerTest<td><a href="#m68"><b>testGetComputation</b>  </a></td><td class="numi">10</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="2">calculator.CalculatorTest<td><a href="#m69"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr><tr class="passedeven"><td><a href="#m70"><b>testStandardOperations</b>  </a></td><td class="numi">8</td><td class="numi">13</td></tr>
+<tr class="passedodd"><td rowspan="1">operation.SqrOperationTest<td><a href="#m71"><b>testEmptyList</b>  </a></td><td class="numi">1</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="1">operation.MultOperationTest<td><a href="#m72"><b>testMultiplyNegative</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="1">logger.LoggerTest<td><a href="#m73"><b>testPrintNLogs</b>  </a></td><td class="numi">8</td><td class="numi">5</td></tr>
+</table>
+<h1>Command line test</h1>
+<a id="m1"></a><h2>operation.SubOperationTest:testBoth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>computation.ComputationTest:testConstructor</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th><th style="padding-left:1em;padding-right:1em">Parameter #5</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">ADD</td>
+<td style="padding-left:.5em;padding-right:2em">null</td>
+<td style="padding-left:.5em;padding-right:2em">0</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em">Computation parameters cannot be null</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>calculator.CalculatorTest:testExit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>calculator.CalculatorTest:testLargeIntegerSubstitution</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">4</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@7cd62f43</td>
+<td style="padding-left:.5em;padding-right:2em">SUB [1,2,3] Answer: -4.0MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">5</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@6d4b1c02</td>
+<td style="padding-left:.5em;padding-right:2em">ADD [1,2,3] Answer: 6.0SUB [1,2,3] Answer: -4.0MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>operation.SqrOperationTest:testPositiveNumbers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>calculator.CalculatorTest:testNonInteger</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>computation.ComputationTest:testGetResult</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@77caeb3e</td>
+<td style="padding-left:.5em;padding-right:2em">-1</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em"></td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@91161c7</td>
+<td style="padding-left:.5em;padding-right:2em">5</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em"></td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>calculator.CalculatorTest:testBadCommand</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>operation.AddOperationTest:testEmptyNumberList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>computation.ComputationTest:testComputationString</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>operation.SqrOperationTest:testValueSize</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>logger.LoggerTest:testGetInstance</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>logger.LoggerTest:testLog</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@66a3ffec</td>
+<td style="padding-left:.5em;padding-right:2em">1</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em"></td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@39c0f4a</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@1794d431</td>
+<td style="padding-left:.5em;padding-right:2em">1</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">6</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@6093dd95</td>
+<td style="padding-left:.5em;padding-right:2em">ADD [1,2,3] Answer: 6.0SUB [1,2,3] Answer: -4.0MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>operation.AddOperationTest:testAddNegatives</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>computation.ComputationTest:testGetName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>operation.SqrOperationTest:testMoreThanOneElementList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>computation.ComputationTest:testConstructor</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th><th style="padding-left:1em;padding-right:1em">Parameter #5</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+<td style="padding-left:.5em;padding-right:2em">[1,2,3]</td>
+<td style="padding-left:.5em;padding-right:2em">0</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em">Computation parameters cannot be null</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>operation.AddOperationTest:testAddPositives</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@5c3bd550</td>
+<td style="padding-left:.5em;padding-right:2em">-1</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em"></td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>operation.DivOperationTest:testDivideNegatives</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>operation.DivOperationTest:testDivideBoth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>logger.LoggerTest:testPrintMostRecentLog</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@77cd7a0</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@204f30ec</td>
+<td style="padding-left:.5em;padding-right:2em">6</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>operation.MultOperationTest:testValueSize</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>logger.LoggerTest:testClearLogHistory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>operation.AddOperationTest:testNullList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>operation.SubOperationTest:testPositiveNumbers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>operation.SubOperationTest:testEmptyList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m36"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@42e26948</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@57baeedf</td>
+<td style="padding-left:.5em;padding-right:2em">2</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m37"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@3bfdc050</td>
+<td style="padding-left:.5em;padding-right:2em">2</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+<td style="padding-left:.5em;padding-right:2em">MULT [1,2,3] Answer: 6.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>calculator.CalculatorTest:testNonIntegerSubstitution</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>operation.MultOperationTest:testEmptyList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@1e88b3c</td>
+<td style="padding-left:.5em;padding-right:2em">0</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+<td style="padding-left:.5em;padding-right:2em">ADD [1,2,3] Answer: 6.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>operation.SqrOperationTest:testNegativeNumbers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@3e6fa38a</td>
+<td style="padding-left:.5em;padding-right:2em">0</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em"></td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>calculator.MenuTest:testInput</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m44"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@1bce4f0a</td>
+<td style="padding-left:.5em;padding-right:2em">3</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+<td style="padding-left:.5em;padding-right:2em">DIV [1,2,4] Answer: 0.125</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">2</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@685cb137</td>
+<td style="padding-left:.5em;padding-right:2em">DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>calculator.CalculatorTest:testSubstitutionOperations</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>operation.MultOperationTest:testMultiplyBoth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m48"></a><h2>operation.SubOperationTest:testNegativeNumbers</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>computation.ComputationTest:testConstructor</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th><th style="padding-left:1em;padding-right:1em">Parameter #5</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+<td style="padding-left:.5em;padding-right:2em">null</td>
+<td style="padding-left:.5em;padding-right:2em">1</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em">Computation parameters cannot be null</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>operation.MultOperationTest:testMultiplyPositive</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>operation.DivOperationTest:testDividePositives</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m52"></a><h2>calculator.CalculatorTest:testInvalidIntegerSubtitution</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">0</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@5622fdf</td>
+<td style="padding-left:.5em;padding-right:2em">Unable to print log: Please request at least one log</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">3</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@6a41eaa2</td>
+<td style="padding-left:.5em;padding-right:2em">MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>operation.DivOperationTest:testValueSize</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m56"></a><h2>computation.ComputationTest:testGetNumberList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>operation.SubOperationTest:testValueSize</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>operation.AddOperationTest:testAddBoth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">1</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@6a4f787b</td>
+<td style="padding-left:.5em;padding-right:2em">SQR [2] Answer: 4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@4883b407</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@7d9d1a19</td>
+<td style="padding-left:.5em;padding-right:2em">0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m61"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@1a968a59</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@4667ae56</td>
+<td style="padding-left:.5em;padding-right:2em">5</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@e25b2fe</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@754ba872</td>
+<td style="padding-left:.5em;padding-right:2em">7</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>operation.AddOperationTest:testValueSize</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>computation.ComputationTest:testConstructor</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th><th style="padding-left:1em;padding-right:1em">Parameter #5</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">ADD</td>
+<td style="padding-left:.5em;padding-right:2em">[1,2,3]</td>
+<td style="padding-left:.5em;padding-right:2em">1</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+<td style="padding-left:.5em;padding-right:2em"></td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m65"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@5e3a8624</td>
+<td style="padding-left:.5em;padding-right:2em">4</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+<td style="padding-left:.5em;padding-right:2em">SQR [2] Answer: 4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m66"></a><h2>operation.DivOperationTest:testEmptyList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m67"></a><h2>computation.ComputationTest:testConstructor</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th><th style="padding-left:1em;padding-right:1em">Parameter #5</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+<td style="padding-left:.5em;padding-right:2em">null</td>
+<td style="padding-left:.5em;padding-right:2em">0</td>
+<td style="padding-left:.5em;padding-right:2em">true</td>
+<td style="padding-left:.5em;padding-right:2em">Computation parameters cannot be null</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m68"></a><h2>logger.LoggerTest:testGetComputation</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th><th style="padding-left:1em;padding-right:1em">Parameter #4</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@42d80b78</td>
+<td style="padding-left:.5em;padding-right:2em">1</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+<td style="padding-left:.5em;padding-right:2em">SUB [1,2,3] Answer: -4.0</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m69"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@343f4d3d</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@53b32d7</td>
+<td style="padding-left:.5em;padding-right:2em">3</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m70"></a><h2>calculator.CalculatorTest:testStandardOperations</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@5442a311</td>
+<td style="padding-left:.5em;padding-right:2em">[Ljava.lang.String;@548e7350</td>
+<td style="padding-left:.5em;padding-right:2em">4</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m71"></a><h2>operation.SqrOperationTest:testEmptyList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m72"></a><h2>operation.MultOperationTest:testMultiplyNegative</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m73"></a><h2>logger.LoggerTest:testPrintNLogs</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">1</td>
+<td style="padding-left:.5em;padding-right:2em">[Lcomputation.Computation;@604ed9f0</td>
+<td style="padding-left:.5em;padding-right:2em">No Logs to Display</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

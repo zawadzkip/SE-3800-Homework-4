@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="logger.LoggerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="operation.SqrOperationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="operation.DivOperationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="calculator.CalculatorTest">
+        <methods>
+          <include name="testStandardOperations" invocation-numbers="5"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="operation.AddOperationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="operation.MultOperationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="operation.SubOperationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

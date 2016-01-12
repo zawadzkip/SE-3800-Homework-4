@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="73" passed="73">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="83" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="83" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+      <class name="computation.ComputationTest">
+        <test-method status="PASS" signature="testComputationString()" name="testComputationString" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testConstructor(java.lang.String, java.lang.String, double, boolean, java.lang.String)" name="testConstructor" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Computation parameters cannot be null]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testConstructor(java.lang.String, java.lang.String, double, boolean, java.lang.String)" name="testConstructor" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Computation parameters cannot be null]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testConstructor(java.lang.String, java.lang.String, double, boolean, java.lang.String)" name="testConstructor" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1,2,3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Computation parameters cannot be null]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testGetName()" name="testGetName" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testConstructor(java.lang.String, java.lang.String, double, boolean, java.lang.String)" name="testConstructor" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Computation parameters cannot be null]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testGetNumberList()" name="testGetNumberList" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testConstructor(java.lang.String, java.lang.String, double, boolean, java.lang.String)" name="testConstructor" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1,2,3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testGetResult()" name="testGetResult" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="operation.MultOperationTest">
+        <test-method status="PASS" signature="testEmptyList()" name="testEmptyList" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testMultiplyBoth()" name="testMultiplyBoth" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testMultiplyPositive()" name="testMultiplyPositive" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testMultiplyNegative()" name="testMultiplyNegative" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testValueSize()" name="testValueSize" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="operation.AddOperationTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddNegatives()" name="testAddNegatives" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddBoth()" name="testAddBoth" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testAddPositives()" name="testAddPositives" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testEmptyNumberList()" name="testEmptyNumberList" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testNullList()" name="testNullList" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testValueSize()" name="testValueSize" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="operation.SubOperationTest">
+        <test-method status="PASS" signature="testBoth()" name="testBoth" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testEmptyList()" name="testEmptyList" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPositiveNumbers()" name="testPositiveNumbers" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testNegativeNumbers()" name="testNegativeNumbers" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testValueSize()" name="testValueSize" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="operation.SqrOperationTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testEmptyList()" name="testEmptyList" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testMoreThanOneElementList()" name="testMoreThanOneElementList" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testNegativeNumbers()" name="testNegativeNumbers" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPositiveNumbers()" name="testPositiveNumbers" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testValueSize()" name="testValueSize" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="calculator.CalculatorTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="7" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="5" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4883b407]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7d9d1a19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@39c0f4a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1794d431]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@42e26948]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@57baeedf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@343f4d3d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@53b32d7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5442a311]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@548e7350]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1a968a59]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4667ae56]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@77cd7a0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@204f30ec]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testStandardOperations([Ljava.lang.String;, [Ljava.lang.String;, int)" name="testStandardOperations" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@e25b2fe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@754ba872]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testBadCommand()" name="testBadCommand" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testExit()" name="testExit" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testInvalidIntegerSubtitution()" name="testInvalidIntegerSubtitution" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testLargeIntegerSubstitution()" name="testLargeIntegerSubstitution" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testNonInteger()" name="testNonInteger" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testNonIntegerSubstitution()" name="testNonIntegerSubstitution" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testSubstitutionOperations()" name="testSubstitutionOperations" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="operation.DivOperationTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testDivideBoth()" name="testDivideBoth" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testDivideNegatives()" name="testDivideNegatives" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testDividePositives()" name="testDividePositives" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testEmptyList()" name="testEmptyList" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testValueSize()" name="testValueSize" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="calculator.MenuTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testInput()" name="testInput" duration-ms="13" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+      <class name="logger.LoggerTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testClearLogHistory()" name="testClearLogHistory" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@3e6fa38a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@66a3ffec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="3" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@77caeb3e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@1e88b3c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ADD [1,2,3] Answer: 6.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@42d80b78]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SUB [1,2,3] Answer: -4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@3bfdc050]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MULT [1,2,3] Answer: 6.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@1bce4f0a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DIV [1,2,4] Answer: 0.125]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@5e3a8624]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SQR [2] Answer: 4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@5c3bd550]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetComputation([Lcomputation.Computation;, int, boolean, java.lang.String)" name="testGetComputation" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@91161c7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testGetInstance()" name="testGetInstance" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testLog()" name="testLog" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintMostRecentLog()" name="testPrintMostRecentLog" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@604ed9f0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No Logs to Display]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@6a4f787b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SQR [2] Answer: 4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@685cb137]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@7cd62f43]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SUB [1,2,3] Answer: -4.0MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@6a41eaa2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="1" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@6093dd95]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADD [1,2,3] Answer: 6.0SUB [1,2,3] Answer: -4.0MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@6d4b1c02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADD [1,2,3] Answer: 6.0SUB [1,2,3] Answer: -4.0MULT [1,2,3] Answer: 6.0DIV [1,2,4] Answer: 0.125SQR [2] Answer: 4.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+        <test-method status="PASS" signature="testPrintNLogs(int, [Lcomputation.Computation;, java.lang.String)" name="testPrintNLogs" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Lcomputation.Computation;@5622fdf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unable to print log: Please request at least one log]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-11T17:42:43Z" finished-at="2016-01-11T17:42:43Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
