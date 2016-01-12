@@ -1,7 +1,7 @@
 # SE 3800 Calculator
 ----
 #### Project Purpose
-This is a project for Homework 4 in my SE 3800 Software Process class.
+This is a project for Homework 4 in my SE 3800 Software Process class. This is simply a command line calculator that runs in Java.
 
 #### Group Members
 Currently this project consists of two Members<br>
