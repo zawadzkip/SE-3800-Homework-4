@@ -1,24 +1,24 @@
 # SE 3800 Calculator
 [![Build Status](https://travis-ci.org/zawadzkip/SE-3800-Homework-4.svg?branch=master)](https://travis-ci.org/zawadzkip/SE-3800-Homework-4)
 ----
-#### Project Purpose
+### Project Purpose
 This is a project for Homework 4 in my SE 3800 Software Process class. This is simply a command line calculator that runs in Java.
 
-#### Group Members
+### Group Members
 Currently this project consists of two Members<br>
 Patrick Zawadzki (zawadzkip@msoe.edu) <br>
 Hardip Gill (gillh@msoe.edu)
 
-#### Java Version
+### Java Version
 This project uses JDK 1.8
 
-#### Libraries
+### Libraries
 This project utilizes TestNG 6.1.1 for testing
 
-#### Build Tools
+### Build Tools
 This project can be built using Maven
 
-#### Build Commands (Maven)
+### Build Commands (Maven)
 
 Build ```mvn build```
 
